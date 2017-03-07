@@ -1,0 +1,14 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CAF_IT_CVMatch
+  host: CAF-IT-CVMatch
+  disk_quota: 1024M
+  services:
+  - Speech To Text-vu
+  - Text to Speech-l2
+  - Document Conversion-f0
+  - Tradeoff Analytics-ba
+  - Discovery-6t
